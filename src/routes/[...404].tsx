@@ -4,15 +4,10 @@ import { HttpStatusCode } from "solid-start/server";
 export default function NotFound() {
   return (
     <main>
-      <Title>Not Found</Title>
+      <Title>얘들아 여길 찾은거 맞니?</Title>
       <HttpStatusCode code={404} />
-      <h1>Page Not Found</h1>
+      <h1>얘들아 여길 찾은거 맞니? [페이지를 찾을 수 없음]</h1>
       <p>
-        Visit{" "}
-        <a href="https://start.solidjs.com" target="_blank">
-          start.solidjs.com
-        </a>{" "}
-        to learn how to build SolidStart apps.
       </p>
     </main>
   );
